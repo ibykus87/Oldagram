@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
 }
+
 .container, .post-container {
     margin: 0 auto;
     width: 375px;
@@ -14,9 +15,11 @@ html, body {
     justify-content: space-between;
     padding: 10px 15px;
 }
+
 .logo {
     width: 127px;
 }
+
 .avatar {
     width: 34px;
     height: 34px;
@@ -26,6 +29,7 @@ html, body {
 .post-container {
     background-color: #ededed;
 }
+
 .posts{
     margin-top: 20px;
     background-color: #fff;
@@ -36,41 +40,49 @@ html, body {
     align-items: center;
     padding: 10px 15px;
 }
+
 .post-user-info {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
+
 .name,
 .username {
     font-weight: bold;
     font-size: 1rem;
 }
+
 .location {
     font-size: 0.875rem;
 }
+
 .post-image {
     width: 100%;
 }
+
 .post-actions {
     width: 105px;
     display: flex;
     justify-content: space-between;
     padding: 15px 10px;
 }
+
 .post-actions a:hover {
     opacity: 0.5;
-
 }
+
 .icon {
     width: 24px;
     height: 24px;
 }
+
 .post-likes {
     padding: 0 15px;
     font-weight: bold;
     font-size: 14px;
 }
+
 .post-comments {
     padding: 10px 15px;
 }
